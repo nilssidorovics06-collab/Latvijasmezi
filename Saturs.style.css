@@ -1,0 +1,154 @@
+/* ===== VISPĀRĒJAIS ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #e8f5e9, #f1f5f3);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== KONTEINERS ===== */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== VIRSRĀKSTI ===== */
+.container h1 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 25px;
+    color: #1b4332;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #2d6a4f;
+    border-left: 5px solid #40916c;
+    padding-left: 10px;
+}
+
+/* ===== TEKSTS ===== */
+.container p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* ===== SARAKSTI ===== */
+.container ul {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.container li {
+    margin-bottom: 8px;
+}
+
+/* ===== NAVIGĀCIJA ===== */
+.nav {
+    margin-top: 30px;
+}
+
+.nav a {
+    display: inline-block;
+    margin: 8px 8px 8px 0;
+    padding: 12px 18px;
+    background-color: #40916c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background-color: #2d6a4f;
+    transform: translateY(-2px);
+}
+
+/* ===== TABULAS ===== */
+.tabula {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.tabula th {
+    background-color: #40916c;
+    color: white;
+    padding: 12px;
+}
+
+.tabula td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabula tr:hover {
+    background-color: #f1f5f3;
+}
+
+/* ===== ATTĒLI ===== */
+.responsive-img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* ===== DEFINĪCIJAS BLOKS ===== */
+.definicija {
+    background-color: #e0f7fa;
+    padding: 12px 15px;
+    border-left: 5px solid #0097a7;
+    margin: 20px 0;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+/* ===== AVOTI ===== */
+.avoti {
+    font-size: 16px;
+}
+
+.avoti a {
+    color: #2d6a4f;
+}
+
+.avoti a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+/* ===== ATTĒLU AVOTI ===== */
+.avots-img {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.avots-img a {
+    color: #2d6a4f;
+}
+
+.avots-img a:hover {
+    text-decoration: underline;
+}
